@@ -3,7 +3,6 @@ def the_ui():
     print("SCORE GRADING SYSTEM")
     print("====================")
 
-# 函数改名，接收分数作为参数
 def get_grade(score_num):
     if score_num >= 90:
         print("Your grade is A")
